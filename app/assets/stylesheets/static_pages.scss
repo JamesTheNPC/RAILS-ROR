@@ -16,26 +16,35 @@ h2 {
 
 /*nav bar */
 
-.container-fluid {
-	background-color: #1F201A;
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
 }
 
-/*navbar fonts and total background */
-
-.navbar-default .navbar-brand {
-	color:green;
-	font-family: 'Rationale', sans-serif;
-	font-size: 3em;
-	text-transform: uppercase;
-}
-
-/*links color and floating away from brand */
-
-.navbar-default .navbar-nav > li > a{
+.nav li {
+	display: inline;
 	color: white;
-	font-size: 2em;
-	font-family: 'Shadows Into Light', cursive;
-;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+.navbar-inverse {
+    background-color: black;
+    border-color: #080808;
 }
 
 /*image*/
@@ -49,12 +58,15 @@ h2 {
 -------------------------------------------------- */
 html,
 body {
-  height: 100%;
+  	height: 100%;
 }
 
 
 .navbar-default .navbar-text {
-    color: #3c763d;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 300;
+    font-family: lato;
 }
 
 .container {
