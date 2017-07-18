@@ -15,7 +15,7 @@
     </tr>
   </thead>
 
-  <tbody>
+  <!--<tbody>
     <% @products.each do |product| %>
       <tr>
         <td><%= product.name %></td>
@@ -28,7 +28,7 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+</table>-->
 
 <div class="container-fluid">
   <div class="row">
@@ -37,7 +37,7 @@
         <a href=""><h1><%= product.name %></h1></a>
         <%= image_tag(product.image_url, class: "img-responsive") %>
         <p class="description"><%= product.description %></p>
-        <p></p>
+        <p class="priced"><%= product.price %></p>
       </div><!-- /col -->
     <% end %>
   </div>
