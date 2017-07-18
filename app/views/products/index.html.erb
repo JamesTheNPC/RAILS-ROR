@@ -35,6 +35,7 @@
     <% @products.each do |product| %>
       <div class="col-sm-2 col-md-4">
         <a href=""><h1><%= product.name %></h1></a>
+        <%= image_tag(product.image_url, class: "img-responsive") %>
         <p class="description"><%= product.description %></p>
         <p></p>
       </div><!-- /col -->
