@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Product.create(name: "Arkham Horror", description: "Board game", price: "22.0" )
+Product.create(name: "Arkham Horror", description: "Board game", image_url: "/home/james/Desktop/RAILS/ROR/app/assets/images/cardgame.jpg", price: "22.0" )
 Product.create(name: "Mythos Tales", description: "Investigation board game", price: "12.0")
 Product.create(name: "Call of Cthulu", description: "RPG board game", price: "6.0")
 Product.create(name: "Mansions of Madness", description: "Audio board games", price: "5.0")
