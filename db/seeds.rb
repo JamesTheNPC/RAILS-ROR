@@ -9,7 +9,7 @@
 Product.create(name: "Arkham Horror", description: "Board game", price: "22.0" )
 Product.create(name: "Mythos Tales", description: "Investigation board game", price: "12.0")
 Product.create(name: "Call of Cthulu", description: "RPG board game", price: "6.0")
-Product.create(name: "Mansions of Madness", description: "Audio board game", price: "5.0")
+Product.create(name: "Mansions of Madness", description: "Audio board games", price: "5.0")
 
 
 
